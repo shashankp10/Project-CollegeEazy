@@ -25,7 +25,7 @@ import com.project.services.AttendanceService;
 
 @RestController
 @RequestMapping("/attendance/private")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://collegeeazy.vercel.app")
 public class AttendanceController {
 	
 	@Autowired
