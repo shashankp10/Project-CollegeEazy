@@ -18,7 +18,7 @@ import com.project.services.NotesService;
 
 @RestController
 @RequestMapping("/notes/private")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://collegeeazy.vercel.app")
 public class NotesController {
 	
 	@Autowired
