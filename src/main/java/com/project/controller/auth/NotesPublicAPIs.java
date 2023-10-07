@@ -22,7 +22,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @RestController
 @RequestMapping("/notes/public")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://collegeeazy.vercel.app")
 public class NotesPublicAPIs {
 	
 	@Autowired
