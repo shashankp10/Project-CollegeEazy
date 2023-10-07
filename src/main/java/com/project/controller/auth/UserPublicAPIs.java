@@ -31,10 +31,10 @@ import jakarta.servlet.http.HttpServletResponse;
 @RequestMapping("/users/public")
 @CrossOrigin(origins = "https://collegeeazy.vercel.app")
 public class UserPublicAPIs {
-	@Autowired
-	private AuthenticationManager authenticationManager;
+    @Autowired
+    private AuthenticationManager authenticationManager;
 	
-	@Autowired
+    @Autowired
     private JpaUserDetailsService jpaUserDetailsService;
     
     @Autowired
