@@ -26,7 +26,7 @@ import com.project.services.UserService;
 
 @RestController
 @RequestMapping("/store/private")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://collegeeazy.vercel.app")
 public class ShopController {
 	
 	@Autowired
