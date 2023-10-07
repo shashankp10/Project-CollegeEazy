@@ -29,7 +29,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @RestController
 @RequestMapping("/users/public")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://collegeeazy.vercel.app")
 public class UserPublicAPIs {
 	@Autowired
 	private AuthenticationManager authenticationManager;
