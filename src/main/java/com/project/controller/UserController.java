@@ -24,7 +24,7 @@ import com.project.services.UserService;
 
 @RestController
 @RequestMapping("/private") 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://collegeeazy.vercel.app")
 public class UserController {
 	
 	@Autowired
