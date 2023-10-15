@@ -112,19 +112,6 @@ public class AttendanceServiceImpl implements AttendanceService{
         result.put("subject6", attendanceRows.get(0).get("subject6"));
         result.put("subject6_present", attendanceRows.get(0).get("subject6_present"));
         result.put("subject6_absent", attendanceRows.get(0).get("subject6_absent"));
-        
-        result.put("subject7", attendanceRows.get(0).get("subject7"));
-        result.put("subject7_present", attendanceRows.get(0).get("subject7_present"));
-        result.put("subject7_absent", attendanceRows.get(0).get("subject7_absent"));
-        
-        result.put("subject8", attendanceRows.get(0).get("subject8"));
-        result.put("subject8_present", attendanceRows.get(0).get("subject8_present"));
-        result.put("subject8_absent", attendanceRows.get(0).get("subject8_absent"));
-        
-        result.put("subject9", attendanceRows.get(0).get("subject9"));
-        result.put("subject9_present", attendanceRows.get(0).get("subject9_present"));
-        result.put("subject9_absent", attendanceRows.get(0).get("subject9_absent"));
-       
         return result;
     }
     
@@ -165,18 +152,6 @@ public class AttendanceServiceImpl implements AttendanceService{
 		attendance.setSubject6(attendanceDto.getSubject6());
 		attendance.setSubject6_present(attendanceDto.getSubject6_present());
 		attendance.setSubject6_absent(attendanceDto.getSubject6_absent());
-		
-		attendance.setSubject7(attendanceDto.getSubject7());
-		attendance.setSubject7_present(attendanceDto.getSubject7_present());
-		attendance.setSubject7_absent(attendanceDto.getSubject7_absent());
-		
-		attendance.setSubject8(attendanceDto.getSubject8());
-		attendance.setSubject8_present(attendanceDto.getSubject8_present());
-		attendance.setSubject8_absent(attendanceDto.getSubject8_absent());
-		
-		attendance.setSubject9(attendanceDto.getSubject9());
-		attendance.setSubject9_present(attendanceDto.getSubject9_present());
-		attendance.setSubject9_absent(attendanceDto.getSubject9_absent());
 		return attendance;
 	}
 	private AttendanceDto attendanceToDto(Attendance attendance) {
@@ -207,18 +182,6 @@ public class AttendanceServiceImpl implements AttendanceService{
 		attendanceDto.setSubject6(attendance.getSubject6());
 		attendanceDto.setSubject6_present(attendance.getSubject6_present());
 		attendanceDto.setSubject6_absent(attendance.getSubject6_absent());
-		
-		attendanceDto.setSubject7(attendance.getSubject7());
-		attendanceDto.setSubject7_present(attendance.getSubject7_present());
-		attendanceDto.setSubject7_absent(attendance.getSubject7_absent());
-		
-		attendanceDto.setSubject8(attendance.getSubject8());
-		attendanceDto.setSubject8_present(attendance.getSubject8_present());
-		attendanceDto.setSubject8_absent(attendance.getSubject8_absent());
-		
-		attendanceDto.setSubject9(attendance.getSubject9());
-		attendanceDto.setSubject9_present(attendance.getSubject9_present());
-		attendanceDto.setSubject9_absent(attendance.getSubject9_absent());
 		return attendanceDto;
 	}
 	@Override
